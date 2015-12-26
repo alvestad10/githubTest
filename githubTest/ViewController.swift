@@ -10,12 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var member = testClass(name: "Person", age: 18)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         print("Hello World")
-        
+        print(member.yearsToOld())
         
     }
 

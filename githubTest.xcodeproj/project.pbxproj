@@ -15,6 +15,7 @@
 		656432B61C2EC17B009711E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656432B41C2EC17B009711E6 /* LaunchScreen.storyboard */; };
 		656432C11C2EC17B009711E6 /* githubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656432C01C2EC17B009711E6 /* githubTestTests.swift */; };
 		656432CC1C2EC17B009711E6 /* githubTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656432CB1C2EC17B009711E6 /* githubTestUITests.swift */; };
+		656432DA1C2EC3AB009711E6 /* testClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656432D91C2EC3AB009711E6 /* testClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		656432C71C2EC17B009711E6 /* githubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		656432CB1C2EC17B009711E6 /* githubTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubTestUITests.swift; sourceTree = "<group>"; };
 		656432CD1C2EC17B009711E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656432D91C2EC3AB009711E6 /* testClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				656432A81C2EC17B009711E6 /* AppDelegate.swift */,
 				656432AA1C2EC17B009711E6 /* ViewController.swift */,
+				656432D91C2EC3AB009711E6 /* testClass.swift */,
 				656432AC1C2EC17B009711E6 /* Main.storyboard */,
 				656432B21C2EC17B009711E6 /* Assets.xcassets */,
 				656432B41C2EC17B009711E6 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656432DA1C2EC3AB009711E6 /* testClass.swift in Sources */,
 				656432AB1C2EC17B009711E6 /* ViewController.swift in Sources */,
 				656432B11C2EC17B009711E6 /* githubTest.xcdatamodeld in Sources */,
 				656432A91C2EC17B009711E6 /* AppDelegate.swift in Sources */,
